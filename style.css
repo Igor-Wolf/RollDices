@@ -1,0 +1,116 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2c3e50;
+    /* Cor de fundo */
+    color: #fff;
+    /* Cor do texto */
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+/* Estilos para o botão */
+button {
+    background-color: #3498db;
+    /* Cor de fundo do botão */
+    color: #fff;
+    /* Cor do texto do botão */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    height: 70px;
+    width: 100px;
+    font-size: 1.7rem;
+}
+
+button:hover {
+    background-color: #2980b9;
+    /* Cor de fundo do botão ao passar o mouse */
+}
+
+
+.main {
+    max-width: 800px;
+    /* Largura máxima do conteúdo */
+    margin: 0 auto;
+    /* Centralizar o conteúdo na página */
+    padding: 20px;
+}
+
+#cabecalho {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.7rem;
+
+}
+
+
+#containerResult {
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+
+}
+
+#containerButton {
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+#containerText {
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 20px;
+    padding: 0px;
+    color: #2c3e50;
+    text-align: center;
+
+}
+
+
+
+
+
+/* Estilos para dispositivos móveis */
+@media only screen and (max-width: 600px) {
+
+    textarea {
+        width: 100%;
+        /* Largura total */
+        text-align: center;
+        font-size: 1.2rem;
+        
+    }
+}
+
+/* Estilos para desktops */
+@media only screen and (min-width: 601px) {
+
+    textarea {
+        width: 90vw;
+        margin-right: 10px;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+}
